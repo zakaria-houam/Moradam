@@ -394,6 +394,9 @@ header{
     border-radius: 5px;
     color: var(--sixth);
 }
+.marka-btn a:hover,.reklamy a{
+    opacity: .8;
+}
 .reklamy{
     display: flex;
     background: var(--fourth);
