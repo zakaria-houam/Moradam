@@ -1,0 +1,562 @@
+@font-face {
+    font-family: SF UI Display;
+    src: url(../fonts/SF\ UI\ Display\ Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SF UI Display;
+}
+:root{
+    --first: #4124a0;
+    --second : #e6a53a;
+    --third : #416ff4;
+    --fourth : #fd4e23;
+    --fifth : #00efd1;
+    --sixth : #1a1723;
+    --seventh : #9487de;
+    --nineth : #170d3d;
+    --tenth : #1d104e;
+    --eleventh : #ffc239;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.sub-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    gap: .5rem;
+    padding: .3rem;
+    margin-left: 7rem;
+}
+.sub-header p{
+    margin-left: 1rem;
+    
+}
+.home{
+    background: url(../images/Slider/BG@2x.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 1rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+   gap: 1rem;
+}
+.nav-bar{
+    margin-top: .8rem;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-bar a{
+    color: var(--seventh);
+    font-weight: 100;
+    padding-bottom: .4rem;
+}
+.nav-bar a:hover{
+    border-bottom: 1px solid white;
+}
+.nav-bar .sign-up{
+    background: white;
+    color: var(--first);
+    padding: .5rem 1.5rem;
+    border-radius: 10px;
+}
+.nav-bar .sign-up:hover{
+    background: var(--first);
+    color: white;
+    border: none;
+}
+.nav-bar .sign-in{
+    background: var(--first);
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 10px;
+}
+.nav-bar .sign-in:hover{
+    background: white;
+    color: var(--first);
+    border: none;
+}
+.home-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 13rem;
+    margin-top: 3rem;
+    padding-right: 52rem;
+    gap: 1rem;
+}
+.home-center h1{
+    color: white;
+    font-size: 4rem;
+}
+.home-center p{
+    color: var(--seventh);
+}
+.home-bottom{
+    display: flex;
+    margin-top: 2.8rem;
+    margin-left: 12rem;
+   
+}
+.home-bottom div{
+    height: 8rem;
+    width: 10rem;
+}
+.home-bottom .div5{
+    display: flex;
+    background: var(--tenth);
+    gap: 3rem;
+    width: 28rem;
+    justify-content: center;
+    align-items: center;
+}
+.home-bottom .div1{
+    background: var(--nineth);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-bottom .div2,.home-bottom .div3{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 .number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 h4{
+    margin-bottom: 4rem;
+}
+.home-bottom h1{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: .8rem;
+}
+.home-bottom h4{
+    color: var(--seventh);
+    font-weight: 100;
+    font-size: .7rem;
+    text-align: center;
+    margin-left: .25rem;
+    margin-top: 0;
+    width: 100%;
+}
+.div1 h1{
+    margin-top: 3.5rem;
+}
+.div1 .plus{
+    color: var(--second);
+   margin-left: .2rem;
+   margin-bottom: .4rem;
+}
+.left-flesh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-left: 50rem;
+    margin-top: 1rem;
+}
+.left-flesh img{
+    width: 15px;
+}
+.left-flesh h2{
+    font-weight: 100;
+    color: gray;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.left-flesh h2:hover{
+    color: var(--second);
+}
+.reference{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: white;
+    margin-top: 1rem;
+}
+.reference img{
+    width: 150px;
+}
+.digital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.digital .left{
+    margin-left: 17rem;
+}
+.digital h1{
+    color: var(--sixth);
+    font-size: 3rem;
+}
+.digital p{
+    color: var(--seventh);
+    margin-top: 1rem;
+}
+.carte-up, .carte-down,.carte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.carte-up,.carte-down{
+    gap: 1rem;
+}
+.carte-down{
+    margin-bottom: 3rem;
+}
+.carte{
+    box-shadow: 1px 1px 15px -10px var(--first);
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.carte img{
+    width: 20px;
+}
+.carte h3{
+    font-weight: 200;
+}
+.digital a{
+    background: var(--third);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+.digital a:hover{
+    opacity: .8;
+}
+.urunlerimiz{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.urun-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+.urun-head h1{
+    font-size: 2.5rem;
+    color: var(--nineth);
+}
+.urun-nav ul{
+    display: flex;
+    gap: 3rem;
+}
+.urun-nav a{
+    color: black;
+    padding-bottom: .3rem;
+}
+.urun-nav a:hover{
+    border-bottom: 2px solid var(--second);
+}
+.urun-center{
+    width: 77rem;
+    height: 100%;
+    box-shadow: 1px 1px 15px -10px var(--first);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+   
+}
+.urun-center .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.urun-center .right h3{
+    font-size: 1rem;
+}
+.urun-right-down{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: .5rem;
+}
+.right .carte{
+   
+    gap: 1rem;
+}
+.google-wordpress{
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.crt-right{
+    margin-left: 2rem;
+}
+.google-wordpress .carte{
+    width: 15rem;
+}
+.wordpress{
+    color: white;
+    background: black;
+}
+.urun-center i{
+    position: absolute;
+}
+.urun-center .bxs-chevron-left-circle{
+    margin-top: 15rem;
+    color: var(--first);
+    font-size: 3rem;
+    margin-left: -2rem;
+}
+.urun-center .bxs-chevron-right-circle{
+    margin-left: 76rem;
+    margin-top: 15rem;
+    color: var(--first);
+    font-size: 3rem;
+}
+.marka{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.marka .right{
+    margin-top: 3rem;
+}
+.marka h6{
+    color: var(--third);
+    font-size: .8rem;
+    font-weight: 100;
+    margin-bottom: .5rem;
+}
+.marka h1{
+    color: var(--tenth);
+    font-size: 2.5rem;
+}
+.marka p{
+    padding-right: 10rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    color: var(--seventh);
+}
+.marka-center{
+    display: flex;
+    margin-top: 2rem;
+}
+.marka-center h2{
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--sixth);
+}
+.marka-center h4{
+    font-size: 1rem;
+    padding-right: 4rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+    color: var(--seventh);
+}
+.marka-btn{
+    margin-left: -2rem;
+    margin-top: 4rem;
+}
+.marka-btn .btn2{
+    margin-left: 2rem;
+    border: 1px solid var(--sixth);
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: var(--sixth);
+}
+.marka-btn .btn1{
+    margin-left: 2rem;
+    background: var(--eleventh);
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: var(--sixth);
+}
+.reklamy{
+    display: flex;
+    background: var(--fourth);
+    margin-right: 5rem;
+    border-radius: 20px;
+    margin-left: 5rem;
+}
+.reklamy .left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+.reklamy h1{
+    color: var(--eleventh);
+    margin-top: 5rem;
+    font-weight: 100;
+}
+.reklamy p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.reklamy a{
+    background: white;
+    color: var(--nineth);
+    padding: 1rem 3rem;
+    width: 6rem;
+    border-radius: 10px;
+}
+.hizmetler .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.hizmetler .title i{
+    color: green;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hizmetler .title h1{
+    color: var(--tenth);
+    font-weight: bolder;
+}
+.hizmetler-center{
+    display: flex;
+    margin-left: 5rem;
+    gap: 20rem;
+    margin-right: 11rem;
+    background: var(--first);
+    border-radius: 25px;
+    width: 85rem;
+    margin-top: 1rem;
+}
+
+.hizmetler-center .left{
+    margin-left: 4rem;
+   
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.hizmetler-center h1{
+    color: var(--fifth);
+    font-weight: 100;
+    margin-top: 2rem;
+}
+.hizmetler-center p{
+    color: white;
+    font-weight: bolder;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.carte-hiz{
+    display: flex;
+    gap: 1rem;
+}
+.carte-hiz .carte{
+    border: 1px solid white;
+    
+    color: white;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+}
+.gorsel,.hostiki,.tasarimi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 5rem;
+}
+.gorsel .cartes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.gorsel h4{
+    color: var(--fifth);
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+}
+.gorsel p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+}
+.gorsel .carte{
+    width: 20rem;
+    margin-left: 2rem;
+}
+.hostiki{
+    background: var(--first);
+    border-radius: 20px;
+    padding: 4rem 10rem;
+    gap: 2rem;
+}
+.hostiki h4{
+    color:var(--seventh) ;
+    margin: 1rem 0;
+}
+.hostiki p{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.hostiki .logos{
+    display: flex;
+    gap: 2rem;
+}
+.tasarimi{
+    background: url(../images/Dijital\ Hizmetler/webtasarim/arka_mor@2x.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 50rem;
+    margin: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.tasarimi h1{
+    color: var(--nineth);
+    font-size: 3rem;
+}
+.tasarimi p{
+    color: var(--third);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.tasarimi a{
+    background: var(--third);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+.tasarimi a:hover{
+    opacity: 0.8;
+}
+
+
