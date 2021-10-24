@@ -533,7 +533,7 @@ header{
     background: url(../images/Dijital\ Hizmetler/webtasarim/arka_mor@2x.png);
     background-size: cover;
     background-position: bottom;
-    padding-bottom: 50rem;
+    padding-bottom: 40rem;
     margin: 0;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -558,5 +558,173 @@ header{
 .tasarimi a:hover{
     opacity: 0.8;
 }
+.blog{
+    display: flex;
+    flex-direction: column;
+    background: url(../images/Blog/bg_blog@2x.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: -25rem;
+}
+.blog .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    padding-right: 9rem;
+}
+.blog .title div{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.blog .title h1{
+    color: var(--tenth);
+    font-size: 2.5rem;
+}
+.blog .title h3{
+    font-weight: 100;
+}
+.blog .cards{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 4rem;
+    
+}
+.blog .blog-card{
+    box-shadow: 1px 1px 15px -10px var(--first);
+    padding-bottom: 2rem;
+}
 
-
+.blog-card .blog-img{
+    width: 100%;
+}
+.blog .cards h6{
+    font-weight: 500;
+    margin:  1rem 2rem;
+    color: var(--seventh);
+}
+.blog .cards h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.blog .cards p{
+    padding-right: 4rem;
+    line-height: 1.5rem;
+    color: var(--seventh);
+    margin-bottom: 2rem;
+}
+.blog .cards a{
+    color:var(--third);
+    font-weight: bolder;
+    padding-bottom: .5rem;
+}
+.blog .cards a:hover{
+    border-bottom: 1px solid var(--third);
+    
+}
+.blog-card p , .blog-card h1, .blog-card a{
+    margin-left: 2rem ;
+}
+.pre-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.pre-footer h1{
+    color: var(--tenth);
+}
+.pre-footer .h12{
+    margin-bottom: 3rem;
+}
+.pre-footer-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 1px solid var(--nineth);
+    width: 45rem;
+    padding-bottom: .5rem;
+}
+footer{
+    background: var(--sixth);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid white;
+}
+.footer-head .contact h4{
+    font-size: 1rem;
+    color: var(--first);
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.footer-head .contact h5{
+    color: var(--third);
+    font-size: 1rem;
+    font-weight: 200;
+}
+.footer-head a{
+    background: white;
+    border-radius: 20px;
+    color: var(--sixth);
+    padding: 1rem 2rem;
+}
+.footer-head a:hover{
+    opacity: 0.8;
+}
+.footer-center{
+    display: flex;
+    gap: 6rem;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+.footer-center h1{
+    color: white;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.footer-center ul li{
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+.footer-center a{
+    color: var(--seventh);
+    display: flex;
+    gap: 1rem;
+    padding-bottom: .5rem;
+}
+.footer-center a:hover{
+    border-bottom: 1px solid white;
+}
+.page-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    padding: 1rem 0;
+}
+.page-bottom h4{
+    font-weight: 100;
+}
+.page-bottom img{
+    margin-right: 2rem;
+    cursor: pointer;
+}
