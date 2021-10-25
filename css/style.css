@@ -2,6 +2,10 @@
     font-family: SF UI Display;
     src: url(../fonts/SF\ UI\ Display\ Regular.ttf);
 }
+@font-face {
+    font-family: sf-ui-display-thin;
+    src: url(../fonts/sf-ui-display-thin-58646e9b26e8b.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -265,6 +269,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(../images/Ürünlerimiz/arkakisim2@2x.png);
+    background-position: center;
+   background-size: cover;
+    margin-bottom: 4rem;
 }
 .urun-head{
     display: flex;
@@ -694,6 +702,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .footer-head{
     display: flex;
@@ -734,8 +743,10 @@ footer{
 }
 .footer-center h1{
     color: white;
-    font-weight: 200;
+    font-weight: 100;
     margin-bottom: 1rem;
+    font-weight: 0;
+    font-size: 1.2rem;
 }
 .footer-center ul li{
     margin-bottom: 1rem;

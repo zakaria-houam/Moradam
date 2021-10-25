@@ -9,24 +9,28 @@ function hover1(){
     urunlist2.classList.remove('hover')
     urunlist3.classList.remove('hover')
     urunlist4.classList.remove('hover')
+    document.querySelector(".urun-center .left img").src = images[0]
 }
 function hover2(){
     urunlist2.classList.add('hover')
     urunlist1.classList.remove('hover')
     urunlist3.classList.remove('hover')
     urunlist4.classList.remove('hover')
+    document.querySelector(".urun-center .left img").src = images[1]
 }
 function hover3(){
     urunlist3.classList.add('hover')
     urunlist1.classList.remove('hover')
     urunlist2.classList.remove('hover')
     urunlist4.classList.remove('hover')
+    document.querySelector(".urun-center .left img").src = images[2]
 }
 function hover4(){
     urunlist4.classList.add('hover')
     urunlist1.classList.remove('hover')
     urunlist3.classList.remove('hover')
     urunlist2.classList.remove('hover')
+    document.querySelector(".urun-center .left img").src = images[3]
 }
 urunlist2.addEventListener('click',hover2)
 urunlist1.addEventListener('click',hover1)
@@ -38,6 +42,13 @@ var listes = [
  urunlist3 = document.querySelector(".urun-nav .item3"),
  urunlist4 = document.querySelector(".urun-nav .item4")
 ]
+var images = [
+    './images/Ürünlerimiz/moradam_resim@2x.png',
+    './images/Ürünlerimiz/1@2x.png',
+    './images/Ürünlerimiz/2@2x.png',
+    './images/Ürünlerimiz/moradam_resim@2x.png',
+]
+
 var i = 0;
 function hover(){
     if(i< listes.length){
@@ -52,6 +63,7 @@ else {
     i=0
     listes[3].classList.remove('hover')
 }
+document.querySelector(".urun-center .left img").src = images[i];
 }
 i=3;
 function hoverinverse(){
@@ -67,6 +79,7 @@ function hoverinverse(){
         i=3
         listes[0].classList.remove('hover')
     }
+    document.querySelector(".urun-center .left img").src = images[i]
 }
 scrollright.addEventListener('click',function(){
     hover();
@@ -97,4 +110,7 @@ showacc3.addEventListener('click',function(){
     acc2.classList.remove('show-accordion')
     acc1.classList.remove('show-accordion')
 })
+
+
+
 
