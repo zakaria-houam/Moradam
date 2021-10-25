@@ -167,13 +167,22 @@ header{
    margin-left: .2rem;
    margin-bottom: .4rem;
 }
+.white-border{
+    position: absolute;
+    height: 5rem;
+    background: white;
+    width: 100%;
+    margin-top: -3.5rem;
+    
+}
 .left-flesh{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
     margin-left: 50rem;
-    margin-top: 1rem;
+    margin-top: 1.7rem;
+    
 }
 .left-flesh img{
     width: 15px;
@@ -267,15 +276,18 @@ header{
     font-size: 2.5rem;
     color: var(--nineth);
 }
+
 .urun-nav ul{
     display: flex;
     gap: 3rem;
 }
-.urun-nav a{
+.urun-nav li{
     color: black;
     padding-bottom: .3rem;
+    cursor: pointer;
 }
-.urun-nav a:hover{
+
+.urun-nav .hover{
     border-bottom: 2px solid var(--second);
 }
 .urun-center{
@@ -323,6 +335,7 @@ header{
 }
 .urun-center i{
     position: absolute;
+    cursor: pointer;
 }
 .urun-center .bxs-chevron-left-circle{
     margin-top: 15rem;
@@ -651,8 +664,12 @@ header{
     justify-content: space-between;
     margin-top: 2rem;
     border-bottom: 1px solid var(--nineth);
-    width: 45rem;
+    width: 33rem;
     padding-bottom: .5rem;
+}
+.pre-footer h3{
+    
+    font-size: 1rem;
 }
 footer{
     background: var(--sixth);
@@ -672,8 +689,8 @@ footer{
 }
 .footer-head .contact h4{
     font-size: 1rem;
-    color: var(--first);
-    font-weight: 200;
+    color:var(--seventh);
+    font-weight: 100;
     margin-bottom: 1rem;
 }
 .footer-head .contact h5{
@@ -692,7 +709,7 @@ footer{
 }
 .footer-center{
     display: flex;
-    gap: 6rem;
+    gap: 8rem;
     margin-top: 2rem;
     color: white;
     font-weight: 200;
@@ -708,10 +725,12 @@ footer{
     font-weight: 100;
 }
 .footer-center a{
-    color: var(--seventh);
+    color: white;
     display: flex;
     gap: 1rem;
     padding-bottom: .5rem;
+    font-weight: 100;
+    font-size: .8rem;
 }
 .footer-center a:hover{
     border-bottom: 1px solid white;
