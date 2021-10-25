@@ -76,5 +76,25 @@ scrollleft.addEventListener('click',function(){
     hoverinverse()
 })
 
-
+var showacc1 = document.querySelector(".show-acc1")
+var showacc2 = document.querySelector(".show-acc2")
+var showacc3 = document.querySelector(".show-acc3")
+var acc1 = document.querySelector(".acc1")
+var acc2 = document.querySelector(".acc2")
+var acc3 = document.querySelector(".acc3")
+showacc1.addEventListener('click',function(){
+    acc1.classList.toggle('show-accordion')
+    acc2.classList.remove('show-accordion')
+    acc3.classList.remove('show-accordion')
+})
+showacc2.addEventListener('click',function(){
+    acc2.classList.toggle('show-accordion')
+    acc1.classList.remove('show-accordion')
+    acc3.classList.remove('show-accordion')
+})
+showacc3.addEventListener('click',function(){
+    acc3.classList.toggle('show-accordion')
+    acc2.classList.remove('show-accordion')
+    acc1.classList.remove('show-accordion')
+})
 

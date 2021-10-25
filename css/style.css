@@ -659,7 +659,7 @@ header{
 .pre-footer .h12{
     margin-bottom: 3rem;
 }
-.pre-footer-card{
+.pre-footer-card div{
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
@@ -670,6 +670,23 @@ header{
 .pre-footer h3{
     
     font-size: 1rem;
+}
+.pre-footer h4{
+    cursor: pointer;
+}
+.pre-footer .accordion{
+    position: relative;
+    display: none;
+}
+.pre-footer .show-accordion{
+    display: block;
+}
+.accordion p{
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     background: var(--sixth);
