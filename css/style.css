@@ -798,7 +798,7 @@ footer{
     .home .nav-bar ul{
         flex-direction: column;
         position: absolute;
-        top: 15%;
+        top: 0%;
         right: 200%;
         background: white;
         height: 100vh;
@@ -814,7 +814,16 @@ footer{
     }
     .home .nav-bar a{
         font-size: 1.5rem;
-
+}
+    .home .nav-bar a:hover{
+        border-bottom: 1px solid var(--first);
+    }
+    .home .nav-bar .bx-x{
+        position: absolute;
+        left: 10%;
+        top: 0;
+        font-size: 3rem;
+        color: var(--first);
     }
     .menu{
         display: block;
@@ -1038,15 +1047,15 @@ footer{
         margin-left: 2rem;
     }
     .pre-footer-card div{
-        width: 100%;
+        width: 20rem;
     }
     .pre-footer-card h3{
         font-size: .8rem;
         margin-right: 2rem;
     }
     .pre-footer-card p{
-        font-size: .8rem;
-        padding: 0 2rem;
+        font-size: 1rem;
+       padding: 0 1rem;
     }
     .footer-head{
         flex-direction: column;

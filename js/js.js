@@ -113,8 +113,11 @@ showacc3.addEventListener('click',function(){
 
 var menu = document.querySelector(".menu i");
 var menulist = document.querySelector(".home .nav-bar ul")
-
+var closemenu = document.querySelector(".home .nav-bar .bx-x")
 menu.addEventListener('click',function(){
     menulist.classList.toggle('show-menu')
+})
+closemenu.addEventListener('click',function(){
+    menulist.classList.remove('show-menu')
 })
 
