@@ -785,6 +785,7 @@ footer{
 .menu{
     display: none;
 }
+
 @media only screen and (max-width : 600px){
     .sub-header{
         margin: 0;
