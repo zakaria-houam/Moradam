@@ -47,8 +47,12 @@ li{
     background: url(../images/Slider/BG@2x.png);
     background-position: center;
     background-size: cover;
-    height: 80vh;
-    padding-top: 1rem;
+    height: 100vh;
+    padding-top: 8rem;
+    margin-top: -4rem;
+}
+.home .bx-x{
+    display: none;
 }
 header{
     display: flex;
@@ -176,8 +180,8 @@ header{
     height: 5rem;
     background: white;
     width: 100%;
-    margin-top: -3.5rem;
-    
+    margin-top: 1rem;
+    height: 3rem;
 }
 .left-flesh{
     display: flex;
@@ -735,7 +739,7 @@ footer{
 }
 .footer-center{
     display: flex;
-    gap: 8rem;
+    gap: 200px;
     margin-top: 2rem;
     color: white;
     font-weight: 200;
@@ -758,7 +762,7 @@ footer{
     gap: 1rem;
     padding-bottom: .5rem;
     font-weight: 100;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 .footer-center a:hover{
     border-bottom: 1px solid white;
