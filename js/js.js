@@ -111,6 +111,10 @@ showacc3.addEventListener('click',function(){
     acc1.classList.remove('show-accordion')
 })
 
+var menu = document.querySelector(".menu i");
+var menulist = document.querySelector(".home .nav-bar ul")
 
-
+menu.addEventListener('click',function(){
+    menulist.classList.toggle('show-menu')
+})
 
