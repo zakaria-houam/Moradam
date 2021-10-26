@@ -220,6 +220,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
+
 }
 .digital .left{
     margin-left: 17rem;
@@ -475,7 +476,7 @@ header{
     margin-right: 11rem;
     background: var(--first);
     border-radius: 25px;
-    width: 80%;
+    width: 90%;
     margin-top: 1rem;
 }
 
@@ -520,9 +521,7 @@ header{
     gap: 1rem;
     margin: 2rem 5rem;
 }
-.gorsel{
-    
-}
+
 .gorsel .cartes{
     display: grid;
     grid-template-columns: repeat(2,1fr);
