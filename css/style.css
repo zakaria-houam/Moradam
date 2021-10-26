@@ -798,14 +798,16 @@ footer{
        height: 100vh;
        margin-top: -5rem;
     }
-    
+    .home header{
+        margin-top: -5rem;
+    }
     .home .nav-bar ul{
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         top: 0%;
         right: 200%;
         background: white;
-        height: 100vh;
+        height: 110vh;
         width: 60vh;
         transition: .5s ease-in-out;
        
@@ -815,6 +817,9 @@ footer{
     }
     .home .nav-bar li{
         margin-top: 2rem;
+    }
+    .home .bx-x{
+        display: block;
     }
     .home .nav-bar a{
         font-size: 1.5rem;
