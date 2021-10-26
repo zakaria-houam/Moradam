@@ -7,7 +7,7 @@
     src: url(../fonts/sf-ui-display-thin-58646e9b26e8b.otf);
 }
 *{
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     font-family: SF UI Display;
 }
@@ -471,16 +471,16 @@ header{
 .hizmetler-center{
     display: flex;
     margin-left: 5rem;
-    gap: 20rem;
+    gap: 2rem;
     margin-right: 11rem;
     background: var(--first);
     border-radius: 25px;
-    width: 85rem;
+    width: 80%;
     margin-top: 1rem;
 }
 
 .hizmetler-center .left{
-    margin-left: 4rem;
+    margin-left: 1rem;
    
     display: flex;
     flex-direction: column;
@@ -496,9 +496,10 @@ header{
     color: white;
     font-weight: bolder;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .carte-hiz{
+    margin-top: 2rem;
     display: flex;
     gap: 1rem;
 }
@@ -519,6 +520,9 @@ header{
     gap: 1rem;
     margin: 2rem 5rem;
 }
+.gorsel{
+    
+}
 .gorsel .cartes{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -534,8 +538,11 @@ header{
     margin: 0 2rem;
 }
 .gorsel .carte{
-    width: 20rem;
+    width: 80%;
     margin-left: 2rem;
+}
+.gorsel .crt-right{
+    margin-left: 5rem;
 }
 .hostiki{
     background: var(--first);
@@ -786,7 +793,7 @@ footer{
     display: none;
 }
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width : 1000px){
     .sub-header{
         margin: 0;
         gap: 0rem;
