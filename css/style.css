@@ -1023,10 +1023,11 @@ footer{
         clear: both;
         display: inline-block;
        
-        white-space: nowrap;
+      
     }
     .blog .title{
-        gap: 1rem;
+        gap: 5rem;
+        justify-content: space-around;
     }
     .blog .title div{
         margin-right: 2rem;
@@ -1067,5 +1068,8 @@ footer{
     .tasarimi .left img{
         width: 350px;
     }
-
+    .urun-nav {
+        padding: 0 .5rem;
+    }
+   
 }
